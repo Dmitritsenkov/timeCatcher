@@ -1,0 +1,41 @@
+.stopwatch{
+	font-family: Helvetica, sans-serif;
+	background-color: rgb(34, 34, 34);
+	color: #FFF;
+	padding: 20px;
+	width: 250px;
+	background-color: rgb(22, 27, 31);
+	border-radius: 4px;
+	box-shadow: 0 3px 6px rgb(12, 12, 12);
+	display: inline-block;
+}
+
+.stopwatchHeader{
+  font-size: 36px;
+}
+
+.stopwatchTime{
+  font-size: 34px;
+  margin: 5px 0;
+}
+
+.timerBtn{
+  background-color: #202b33;
+  border: solid 1px #C1C1C1;
+  padding: 7px 17px;
+  color: #C1C1C1;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.startBtn{
+  border: solid 1px #0BD1E7;
+  color: #0BD1E7;
+}
+
+.stopBtn{
+  border: solid 1px #D44949;
+  color: #D44949;
+}

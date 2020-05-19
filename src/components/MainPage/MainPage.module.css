@@ -1,0 +1,43 @@
+.mainPageWrapper{
+	display: grid;
+  	grid-template-columns: 100%;
+	text-align: center;
+	margin-top: 10rem;
+}
+
+.mainPageLeft{
+	background: #3B3B3B;
+}
+
+@media only screen and (max-width: 800px){
+	.mainText{
+		font-weight: 100;
+		width: 90%;
+		margin: auto;
+		margin-top: 2rem;
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	.mainText{
+		font-weight: 100;
+		width: 45rem;
+		margin: auto;
+		margin-top: 2rem;
+		font-size: 3rem;
+	}
+}
+
+
+.signUpBtn{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding: .8rem 2.3rem .8rem 2.3rem;
+	color: #FFF;
+	background: #00CC66;
+	border: none;
+	font-weight: 600;
+	outline: none;
+	font-size: 1rem;
+}

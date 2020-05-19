@@ -1,0 +1,8 @@
+.miniStopwatchWraper{
+	position: relative;
+}
+
+.stopwatchTime{
+	position: absolute;
+	left: 6.7rem;
+}

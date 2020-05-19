@@ -1,0 +1,9 @@
+.buttonStyle {
+  background-color: #202b33;
+  border: solid 1px #0BD1E7;
+  padding: 10px 20px;
+  color: #0BD1E7;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1000px) { 
+.mainDisplayWrapper{
+		background: #3B3B3B;
+		padding-top: 1rem;
+		margin-left: 0rem;
+		display: block;
+		text-align: center;
+		transition: 0.3s;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+
+	.mainDisplayWrapper{
+		background: #3B3B3B;
+		padding-top: 1rem;
+		margin-left: 23rem;
+		display: block;
+		text-align: center;
+		transition: 0.3s;
+	}
+}
+
+/*FOR SMALL*/
+@media only screen and (max-width: 1000px) { 
+	.mainDisplayWrapperWithHiddenSidebar{
+	background: #3B3B3B;
+	padding-top: 1rem;
+	margin-left: 0rem;
+	display: block;
+	text-align: center;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.mainDisplayWrapperWithHiddenSidebar{
+		background: #3B3B3B;
+		padding-top: 1rem;
+		margin-left: 0rem;
+		display: block;
+		text-align: center;
+		transition: 0.3s;		
+	}
+}
+
+.timers{
+	display: block;
+}
+
+.timerWrapper{
+	display: inline-block;
+}
+
+.switchBtnWrapper{
+	display: inline-block;
+	position: absolute;
+	top: 11.2rem;
+	transform: translateX(2rem);
+}
+
+.switchBtn{
+	background-color: #202b33;
+	border: solid 1px transparent;
+	border-radius: 4px;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.settingsWrapper{
+	text-align: right;
+	margin-right: 1.5rem;
+}
+.settings{
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-basis: 0;
+	height: auto;
+	color: #B3B3B3;
+	margin-bottom: 1rem;
+}
+.settings:hover{
+	color: #FFF;
+}
+.settingsImage{
+	width: 1.130rem;
+	margin-right: .2rem;
+	transform: translateY(-5%);
+}
+
+.addHoursBtn{
+	padding: .5rem 1.3rem .5rem 1.3rem;
+	color: #FFF;
+	background: #00CC66;
+	border: none;
+	font-weight: 600;
+	outline: none;
+}

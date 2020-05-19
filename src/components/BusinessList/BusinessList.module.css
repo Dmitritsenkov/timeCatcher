@@ -1,0 +1,137 @@
+.businessListWrapper{
+	transition: 0.3s;
+	position: absolute;
+	top: 0;
+	text-align: left;
+	width: 23rem;
+	z-index: 3;
+	height: auto;
+	min-height: 100%;
+	color: #FFF;
+	background: #161B1F;
+}
+
+.businessListWrapperHidden{
+	transform: translateX(-30rem);
+  	transition: 0.3s;
+	position: absolute;
+	top: 0;
+	text-align: left;
+	z-index: 3;
+	width: 23rem;
+	height: auto;
+	min-height: 100%;
+	color: #FFF;
+	background: #161B1F;
+}
+
+.TimeCatcherLogoText{
+	font-family: Harriot;
+	display: inline-block;
+	margin-left: .7rem;
+	font-size: 1.3rem;
+	margin-top: .7rem;
+	transform: translateY(-.3rem);
+	font-weight: 300;
+}
+
+.createBusinessBtn{
+	background: none;
+	border: none;
+	color: #FFF;
+}
+
+.addNewBusinessWrapper{
+  bottom: 1rem;
+  left: 1rem;		
+  width: 400px;
+  position: absolute;
+  display: flex;
+  color: #B3B3B3;
+}
+
+.addNewBusinessWrapper:hover{
+	color: #FFF;
+}
+
+.plusBtn{
+  background-color: #d44949;
+  height: 35px;
+  width: 35px;
+  outline: 0;
+  display: block;
+  color: #fff;
+  border-radius: 100%;
+  bottom: 0;
+}
+
+.plusBtn:hover{
+  cursor: default;
+}
+
+.btnText{
+	transform: translateY(27%);
+	font-size: 1rem;
+	margin-left: .5rem;
+}
+
+.plus{
+  text-align: center;
+  line-height: 35px;
+  font-size: 30px;
+}
+
+.listIcon{
+	width: 20px;
+	position: absolute;
+	left: 2rem;
+}
+
+.myBussinesTitle{
+	margin-top: 2rem;
+	margin-left: 1rem;
+}
+
+
+
+.toggleSidebarMenu{
+	font-size: 2rem;
+	cursor: pointer;
+	background-color: #161B1F;
+	color: white;
+	border: none;
+	height: 3rem;
+  	width: 3rem;
+  	margin-left: .5rem;
+  	margin-right: .8rem;
+  	margin-top: .5rem;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+
+.toggleSidebarMenuSecond{
+  	position: absolute;
+  	top: .5rem;
+	font-size: 2rem;
+	cursor: pointer;
+	background-color: #282828;
+	color: white;
+	border: none;
+	height: 3rem;
+  	width: 3rem;
+  	left: .5rem;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+
+.toggleSidebarMenu:focus{
+	outline: none;
+}
+
+.toggleSidebarMenuSecond:focus{
+	outline: none;
+}
+
+.toggleSidebarMenu:active{
+	background: #3B3B3B;
+}

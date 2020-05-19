@@ -1,0 +1,43 @@
+{
+  "name": "time-catcher",
+  "homepage": "http://dmitritsenkov.info/timecatcher/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.24",
+    "@fortawesome/free-solid-svg-icons": "^5.11.1",
+    "axios": "^0.19.2",
+    "firebase": "^7.4.0",
+    "react": "^16.9.0",
+    "react-clock": "^2.4.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-redux-firebase": "^3.0.5",
+    "react-scripts": "^3.3.0",
+    "redux": "^4.0.4",
+    "redux-firestore": "^0.10.0",
+    "redux-multi": "^0.1.12",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+.layoutWrapper{
+	background: #E77A3B;
+}
+
+.topMenu{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #282828;
+}
+
+.topMenu li{
+	float: right;
+}
+
+.signUp{
+  margin-top: .5rem;
+  margin-right: 4rem;
+}
+
+.signIn{
+  margin-top: .5rem; 
+  margin-right: 2rem;
+}
+
+.signUp a:hover{
+  color: #E49F00;
+}
+
+.signIn a:hover{
+  color: #E49F00;
+}
+
+
+.topMenu li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;   
+}
+
+.accountProfile:hover{
+  background: #3B3B3B;
+  cursor: pointer;
+}
+
+
+.accountProfile{
+  background: #161B1F;
+  border-radius: 5%;
+  margin-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-right: 20px;
+  padding-left: 24px;
+}
+
+.accountProfile a{
+  margin-right: .5rem;
+}
+
+.accountProfile i{
+  transform: translateY(-.1rem);
+}
+
+.accountProfile u{
+  transform: translateX(-.6rem);
+  font-size: 1.5rem;
+  text-decoration-line: none;
+}
+
+.fa-sort-up{
+  color: red;
+  transform: translateY(-22rem);
+}
+
+

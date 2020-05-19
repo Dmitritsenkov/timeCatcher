@@ -1,0 +1,130 @@
+.settingsModal{
+	z-index: 4;
+	position: absolute;
+ 	margin: 0;
+ 	top: 28rem;
+  right: 7rem;
+ 	width: 15rem;
+	height: auto;
+  padding: 0 .5rem 1rem .5rem;
+	background: #FFF;
+  border: 1px grey solid;
+  color: #282828;
+}
+
+
+.popUpContainer{
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  z-index: 15;
+  width: 31rem;
+  height: 8rem;
+  background: #FFF;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.savePopUpContainer{
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  z-index: 15;
+  width: 31rem;
+  height: 6rem;
+  background: #FFF;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.popUpContainer_message{
+  align-self: flex-start;
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #212121;
+}
+
+.popUpContainer_message_description{
+  align-self: flex-start;
+  margin-top: 0;
+  margin-left: 2rem;
+  font-size: 1rem;
+  color: #666666;
+}
+
+/*Buttons*/
+
+.yesBtn{
+
+}
+
+.noBtn{
+
+}
+
+.yesNoWrapper{
+  align-self: flex-end;
+}
+
+.noBtn, .yesBtn{
+  border: solid 1px transparent;
+  padding: 0 30px;
+  color: #6200EE;
+  font-size: 1rem;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+
+.deleteBtn{
+  font-size: 14px;
+  padding: .4rem .5rem;
+  font-weight: 400;
+  background: #E1E1E1;
+  color: #CB2431;
+  border: #C9CCCE solid 1px;
+}
+
+.deleteBtn:hover{
+  background: #CB2431;
+  color: #FFF;
+}
+
+.settingsTitle{
+  font-weight: 300;
+}
+.settingsFields{
+  text-align: right;
+}
+
+.settingsFields span{
+  float: left;
+
+}
+.settingsFields input{
+  border: 1px solid black;
+  width: 7rem;
+}
+
+
+.saveBtn{
+  padding: .5rem 1.3rem .5rem 1.3rem;
+  color: #FFF;
+  background: #00CC66;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  margin-top: .5rem;
+}
+
+
+.red {
+  color: #D44949;
+}

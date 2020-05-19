@@ -1,0 +1,26 @@
+.profileMenu{
+	position: absolute;
+	color: #161B1F;
+	right: 1rem;
+	top: 4rem;
+	background: #FFF;
+	height: 35px;
+	width: 15rem;
+}
+
+.profileMenu ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.profileMenu ul li{
+	padding: .5rem 0 .5rem 0;
+	width: 100%;
+}
+
+.profileMenu ul li:hover{
+	background: #909090;
+}
+

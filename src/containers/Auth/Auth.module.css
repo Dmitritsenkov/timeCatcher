@@ -1,0 +1,154 @@
+@media only screen and (min-width: 1000px) {	
+	.formWrapper{
+		display: flex;
+		z-index: 10;
+		position: fixed;
+		top: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		transform: translateY(-50%);
+		width: 50%;
+		height: 31rem;
+		background: #282828;
+		text-align: center;
+	  	text-align-last: left;
+	}
+}
+
+@media only screen and (max-width: 1000px) {	
+	.formWrapper{
+		display: flex;
+		z-index: 10;
+		position: fixed;
+		top: 50%;
+		margin-left: 10%;
+		margin-right: 10%;
+		transform: translateY(-50%);
+		width: 80%;
+		height: 20rem;
+		background: #282828;
+		text-align: center;
+	  	text-align-last: left;
+	}
+}
+
+@media only screen and (min-width: 1000px) {	
+	.firstHalf{
+		box-sizing: border-box;
+		padding: 3.5rem 2rem 0 3.5rem;
+		width: 40%;
+		background: #E49F00;	
+	}
+}
+
+@media only screen and (max-width: 1000px) {	
+	.firstHalf{
+		display: none;
+		box-sizing: border-box;
+		padding: 4rem 4rem 0 4rem;
+		width: 40%;
+		background: #E49F00;	
+	}
+}
+
+@media only screen and (min-width: 1000px) {	
+	.mobileFormTitle{
+		display: none;
+	}
+}	
+
+@media only screen and (max-width: 1000px) {	
+	.mobileFormTitle{
+		display: inline-block;
+		font-size: 1.5rem;
+		font-weight: 400;
+		margin-left: 44%;
+		transform: translateX(-50%);
+	}
+}	
+
+.description{
+	text-align: left;
+	font-weight: 300;
+}
+
+.formTitle{
+	text-align: left;
+	margin-bottom: 2.5rem;
+	font-size: 1.7rem;
+	font-weight: 300;
+}
+
+@media only screen and (min-width: 1000px) {	
+	.secondHalf{
+		width: 60%;
+		box-sizing: border-box;
+		padding: 5.8rem 4rem 0 4rem;
+		background: #FFF;
+		color: #A6A7AC;
+		font-weight: 600;
+		font-size: .8rem;
+	}
+}
+
+@media only screen and (max-width: 1000px) {	
+	.secondHalf {
+		text-align: left;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 2rem 0 2rem;
+		background: #FFF;
+		color: #A6A7AC;
+		font-weight: 600;
+		font-size: .8rem;
+		height: 20rem;
+
+	}
+}
+
+
+input{
+	margin-top: .2rem;
+	margin-bottom: 1.4rem;
+	border: none;
+	border-bottom: 1px solid #A6A7AC;
+	width: 85%;
+}
+input:focus{
+	outline: none;
+}
+input:last-child{
+	margin-bottom: 0;
+} 
+
+.btnSubmit{
+	padding: .5rem 1.3rem .5rem 1.3rem;
+	color: #FFF;
+	background: #00CC66;
+	border: none;
+	font-weight: 600;
+	outline: none;
+}
+
+.link{
+	text-decoration: none;
+	color: #7EE4AB;
+	font-weight: 700;
+}
+
+.formCover{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  opacity: .9;
+}
+
+.errorMsg{
+	margin-top: 0;
+	color: red;
+	text-align: left;
+}

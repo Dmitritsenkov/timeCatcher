@@ -87,8 +87,6 @@ export const deleteBusiness = (id) => {
 					id: id
 				})
 				dispatch(stopWatch.deleteStopWatch(id))
-				// dispatch(fetchBusinessDataBegin(userId))
-				// dispatch(stopWatch.initializeStopWatches(userId))
 			})	 
 
 		}
@@ -105,14 +103,16 @@ export const addWorkingHours = (stopWatchData) => {
 		let progress;
 
 			if(!stopWatchData.timerOn && stopWatchData.timerTime>59999){
+
 				let final_minutes;
 				let final_hours;
 
-				let businessTotalMinutes = parseInt(((businesses[index].totalHours.hours * 60) + businesses[index].totalHours.minutes), 10); 
-				let currentTotalMinutes = parseInt(((stopWatchData.currentStopwatchTime.hours * 60) + stopWatchData.currentStopwatchTime.minutes), 10)
-				
+				let businessTotalMinutes = (parseInt(businesses[index].totalHours.hours) * 60) + parseInt(businesses[index].totalHours.minutes); 
+				let currentTotalMinutes = (parseInt(stopWatchData.currentStopwatchTime.hours) * 60) + parseInt(stopWatchData.currentStopwatchTime.minutes)
+
 				final_hours = Math.floor((businessTotalMinutes + currentTotalMinutes) / 60); 
 				final_minutes = (businessTotalMinutes + currentTotalMinutes) % 60;
+
 
 				newTotalHours.hours = final_hours;
 				newTotalHours.minutes = final_minutes;
@@ -123,7 +123,6 @@ export const addWorkingHours = (stopWatchData) => {
 
 
 
-				// PUT DATA ON SERVER
 
 				let userId = localStorage.getItem('userId');
 				let userRef = firebase.firestore().collection('Users').doc(userId);

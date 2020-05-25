@@ -48,7 +48,7 @@ const MainPage = () => {
 	return(
 		<div className={classes.mainPageWrapper}>
 			<div className={classes.mainPageLeft}>
-				<h2 className={classes.mainText}>With this app you can track your time of doing any activity, just sign up and start right now</h2>
+				<h2 className={classes.mainText}>With this app you can track your time of any activity, just sign up and start right now</h2>
 				<button onClick={showSignUpModal} className={classes.signUpBtn}>SIGN UP</button>
 			</div>
 			{modal}
